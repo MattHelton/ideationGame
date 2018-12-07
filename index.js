@@ -1,3 +1,7 @@
+// Created this simple app for my partner's work. They just wanted a button that generates a random prompt.
+
+//    As it stands, it's fully functional but everytime I generate a new h1 wih and "idea" in it, the idea is appended to the previous one.
+
 const choices = ['“Beginners guide to...”', 'Buying/gift guide', 'Checklist', 'Comparison piece', 'Create a calendar of upcoming events', 'FAQ', 'Flow chart', '“How to...”', 'Interview industry experts (inside or outside your company)', 'Links roundup', 'List of things to do/never do', 'Mythbusting article', 'Predict future trends', 'Quote piece', 'The biggest influences/influencers', 'Timeline', 'Top 10 list', 'Update old content', 'Write a review/recommend a product, service, etc', '“x things to learn from...” (this could be a conference, event, TV show, movie, anything)']
 const generator = document.querySelector('.generate')
 var currentH1 = document.getElementById('parent')
