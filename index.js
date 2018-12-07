@@ -1,4 +1,4 @@
-let choices = ['“Beginners guide to...”',
+const choices = ['“Beginners guide to...”',
   'Buying/gift guide',
   'Checklist',
   'Comparison piece',

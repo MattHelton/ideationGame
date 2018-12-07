@@ -1,18 +1,33 @@
 body{
-    background-color: #0F4C5C
+    background-color: #93B7BE
 }
 
 h1{
-    color: #FB8B24;
+    color: #454545;
+    background-color: #F1FFFA;
+    margin: 4em;
+    font-size: 32px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #454545;
 }
 
 #button{
-    background-color: #9A031E;
-  border: none;
-  color: #5F0F40;
-  padding: 15px 32px;
+  background-color: #F1FFFA;
+  border: 1px solid #8E94F2;
+  color: #B02E0C;
+  padding: 32px 66px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 32px;
+  font-weight: 700
+}
+
+#header, h1 {
+    display: flex; justify-content: center;
+}
+
+.hidden{
+    display: none !important
 }
